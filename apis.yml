@@ -1,7 +1,26 @@
 aid: arimo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arimo.png
 name: Arimo
-description: Arimo is a company surfaced as a portfolio company of a16z, bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Arimo (formerly Adatao) was a Palo Alto, California AI and big-data startup
+  building a distributed deep-learning and "Behavioral AI" analytics platform on
+  top of Apache Spark, backed by Andreessen Horowitz (a16z) and Bloomberg Beta.
+  The company was acquired by Panasonic in 2017 and folded into Panasonic's
+  AI/innovation efforts, and it no longer operates as an independent provider.
+  Surfaced as a portfolio-company lead for the API Evangelist network, this
+  profile has no surviving developer portal, documentation, or public API
+  surface to enrich - the arimo.com and arimo.ai domains no longer resolve.
 url: https://raw.githubusercontent.com/api-evangelist/arimo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,26 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-detail: Acquired by Panasonic (2017); formerly Adatao. No live independent web/API presence; arimo.com/arimo.ai do not resolve.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Deep Learning
+- Big Data
+- Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
